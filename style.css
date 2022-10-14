@@ -9,8 +9,23 @@ body{
     background: rgb(255,0,0);
 background: linear-gradient(90deg, rgba(255,0,0,1) 22%, rgba(255,255,255,1) 50%, rgba(29,0,255,1) 79%);
 }
+
 .page-header{
     margin-top: 5rem;
     font-size: 1.25rem;
-
+    color: black;
+}
+.feature{
+    color: black;
+}
+.feature ul{
+    padding: left 2rem;
+    list-style-type:square ;
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-image:url(../img/check.svg) ;
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem ;
 }
